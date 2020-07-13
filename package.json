@@ -1,0 +1,36 @@
+{
+  "name": "42-cent-omise",
+  "version": "1.0.0",
+  "description": "42-cent adaptor for the omise payement gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node ./node_modules/mocha/bin/_mocha -t 30000 ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/continuous-software/42-cent-osmise.git"
+  },
+  "keywords": [
+    "42-cent",
+    "payement",
+    "gateway",
+    "omise"
+  ],
+  "author": "Laurent Renard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/continuous-software/42-cent-omise/issues"
+  },
+  "homepage": "https://github.com/continuous-software/42-cent-omise",
+  "devDependencies": {
+    "42-cent-model": "^2.0.2",
+    "casual": "^1.5.12",
+    "mocha": "^6.0.0"
+  },
+  "dependencies": {
+    "42-cent-base": "^1.0.0",
+    "42-cent-util": "^1.0.0",
+    "object-assign": "^4.1.1",
+    "omise": "^0.5.4"
+  }
+}
